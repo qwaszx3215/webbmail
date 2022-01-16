@@ -100,7 +100,7 @@ export default function ContactUs() {
    
                     <div class='lan' >
   
-                              Copyright© 2021 cPanel, L.L.C.<br/>
+                              Copyright© 2022 cPanel, L.L.C.<br/>
              Privacy Policy
             
                     </div>
